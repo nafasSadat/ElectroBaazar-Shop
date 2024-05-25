@@ -1,0 +1,58 @@
+.navbar{
+    background-color: rgb(23, 176, 193);
+    color: aliceblue;
+    width: auto;
+    height: 80px;
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+    max-width: 100%;
+    overflow: auto;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.links {
+    float: left;
+    /* margin: 0; */
+    padding: auto;
+    margin-right: 2rem;
+    margin-bottom: 0;
+    display: flex;
+    align-items: center;
+  }
+  
+  .links a {
+    text-decoration: none;
+    color: white;
+    padding-left: 1rem;
+    gap: 1rem;
+    font-size: 1.1rem;
+    flex-wrap: wrap;
+ 
+  }
+  a:hover {
+    color: #5ff3e4;
+  }
+ 
+  .login{
+    /* margin-right: 20px; */
+    font-size: 1.3rem;
+    color: rgb(10, 35, 223);
+    flex-wrap: wrap;
+    float: right;
+
+  }
+ .showitemnumber{
+  background-color: rgb(72, 223, 203);
+  width: auto;
+  height: auto;
+  border-radius: 15px;
+  font-size: 12px;
+  margin-bottom: 28px;
+  color: white;
+  padding-right: 4px;
+  padding-left: 4px;
+  padding-top: 2px;
+  cursor: pointer;
+ }

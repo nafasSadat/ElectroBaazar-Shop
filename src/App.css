@@ -1,0 +1,19 @@
+.App {
+    width: auto;
+    height: auto;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    min-height: 100%;
+  }
+  
+
+
+
+
+
